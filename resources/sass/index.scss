@@ -1,0 +1,81 @@
+.logoIndex{
+	height: 300px;
+	width: auto
+}
+
+
+.form{
+
+	min-height: 190px;
+	padding: 15px;
+	border: 1px solid gray;
+	border-radius: 15px;
+	text-align: left;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.divButton{
+	margin-top: 30px;
+	box-sizing: border-box;
+
+	.btnDownload{
+
+		padding: 10px;
+		border-radius: 15px;
+		color: white;
+		background-color: orange;
+		text-decoration: none;
+		border: 1px solid orange;
+
+		&:hover{
+			color: orange;
+			background-color: white;
+		}
+	}
+}
+
+.title{
+	font-size: 40px !important;
+	margin-bottom: 5px;
+}
+
+.title-form{
+	font-size: 25px;
+    color: gray;
+}
+
+.alert{
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 10px;    
+    border-radius: 15px;    
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+
+    &-success{
+    	border: 1px solid #35b905;
+	    background: #27b30d5e;
+
+	    > label {
+	    	color: #077307;
+	    }
+    }
+
+    &-error{
+    	border: 1px solid #da5353;
+    	background: #de9c9c8f;	
+
+    	> label{
+    		color: #d26262
+    	}
+    }
+
+    label{
+    	margin: 0;
+    }
+}
